@@ -1,11 +1,15 @@
 import './App.css';
-import DataTable from './components/DataTable/DataTable';
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
+import TodoTable from './components/TodoTable/TodoTable';
 
 function App() {
   return (
     <div className="App">
-      <h1>Table From Json API</h1>
-      <DataTable />
+      <TodoTable />
     </div>
   );
 }
